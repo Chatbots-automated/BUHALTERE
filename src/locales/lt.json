@@ -217,5 +217,186 @@
       "travelArrangements": "Kelionių Organizavimas",
       "clientCommunication": "Klientų Komunikacija"
     }
+  },
+  "faq": {
+    "title": "Dažnai Užduodami Klausimai",
+    "questions": {
+      "rightPackage": {
+        "question": "Kaip žinoti, kuris paketas man tinka?",
+        "answer": "Rekomenduojame pradėti nuo mūsų paslaugų skaičiuoklės, kad gautumėte įvertinimą pagal savo konkrečius poreikius. Jei vis dar nesate tikri, mūsų komanda gali pateikti asmeninę rekomendaciją konsultacijos metu."
+      },
+      "customize": {
+        "question": "Ar galiu pritaikyti savo paketą?",
+        "answer": "Taip, mes siūlome visiškai pritaikomus paketus, atitinkančius jūsų konkrečius verslo poreikius. Susisiekite su mumis, kad aptartumėte savo reikalavimus, ir mes sukursime jums pritaikytą sprendimą."
+      },
+      "contract": {
+        "question": "Ar yra sutartis ar minimalus įsipareigojimas?",
+        "answer": "Mūsų standartiniai paketai siūlomi mėnesiniu pagrindu be ilgalaikių įsipareigojimų. Tačiau mes siūlome nuolaidas klientams, kurie įsipareigoja ilgesniam laikotarpiui."
+      },
+      "startTime": {
+        "question": "Kaip greitai galite pradėti dirbti su manimi?",
+        "answer": "Paprastai galime pradėti dirbti su naujais klientais per 1-2 darbo dienas po paslaugų sutarties sudarymo. Sudėtingesniems reikalavimams gali prireikti papildomo laiko įdiegimui ir nustatymui."
+      }
+    }
+  },
+  "services": {
+    "emailManagement": {
+      "title": "El. Pašto Valdymas",
+      "description": "Mūsų el. pašto valdymo paslauga padeda jums atgauti savo pašto dėžutės kontrolę ir užtikrina, kad į svarbius pranešimus būtų reaguojama greitai ir profesionaliai.",
+      "features": {
+        "organization": {
+          "title": "Pašto Dėžutės Organizavimas",
+          "description": "Sukuriame logišką aplankų struktūrą ir filtravimo sistemą, kad jūsų pašto dėžutė būtų tvarkinga."
+        },
+        "filtering": {
+          "title": "El. Laiškų Filtravimas",
+          "description": "Prioritetizuojame svarbius pranešimus ir filtruojame nepageidaujamus laiškus, kad matytumėte tai, kas svarbiausia."
+        },
+        "response": {
+          "title": "Atsakymų Valdymas",
+          "description": "Rašome ir siunčiame atsakymus jūsų vardu, laikydamiesi jūsų nurodymų ir komunikacijos stiliaus."
+        }
+      },
+      "cta": "Pradėti"
+    },
+    "calendarManagement": {
+      "title": "Kalendoriaus Valdymas",
+      "description": "Mūsų kalendoriaus valdymo paslauga užtikrina, kad jūsų tvarkaraštis būtų optimizuotas ir jūs niekada nepraleistumėte svarbaus susitikimo.",
+      "features": {
+        "scheduling": {
+          "title": "Susitikimų Planavimas",
+          "description": "Koordinuojame su klientais ir partneriais, kad suplanuotume susitikimus laiku, kuris tinka visiems."
+        },
+        "reminders": {
+          "title": "Priminimų Nustatymas",
+          "description": "Nustatome priminimus svarbiems įvykiams, terminams ir tolesniems veiksmams."
+        },
+        "optimization": {
+          "title": "Tvarkaraščio Optimizavimas",
+          "description": "Organizuojame jūsų kalendorių, kad maksimaliai padidintume produktyvumą ir sumažintume kelionės laiką tarp susitikimų."
+        }
+      },
+      "cta": "Pradėti"
+    },
+    "documentHandling": {
+      "title": "Dokumentų Tvarkymas",
+      "description": "Mūsų dokumentų tvarkymo paslauga užtikrina, kad visi jūsų verslo dokumentai būtų kuriami, redaguojami ir organizuojami profesionaliai.",
+      "features": {
+        "creation": {
+          "title": "Dokumentų Kūrimas",
+          "description": "Kuriame profesinius dokumentus, įskaitant laiškus, ataskaitas, prezentacijas ir kt."
+        },
+        "editing": {
+          "title": "Dokumentų Redagavimas",
+          "description": "Peržiūrime ir redaguojame dokumentus dėl gramatikos, rašybos, formatavimo ir aiškumo."
+        },
+        "organization": {
+          "title": "Dokumentų Organizavimas",
+          "description": "Įdiegiame logišką failų sistemą, kad dokumentus būtų lengva rasti ir pasiekti."
+        }
+      },
+      "cta": "Pradėti"
+    },
+    "travelArrangements": {
+      "title": "Kelionių Organizavimas",
+      "description": "Mūsų kelionių organizavimo paslauga rūpinasi visomis jūsų verslo kelionių detalėmis, užtikrindama sklandžią ir be streso patirtį.",
+      "features": {
+        "flights": {
+          "title": "Skrydžių Rezervavimas",
+          "description": "Tyrinėjame ir rezervuojame skrydžius, kurie atitinka jūsų tvarkaraštį ir pageidavimus."
+        },
+        "accommodation": {
+          "title": "Apgyvendinimas",
+          "description": "Randame ir rezervuojame viešbučius ar kitas apgyvendinimo vietas, kurios atitinka jūsų reikalavimus."
+        },
+        "transportation": {
+          "title": "Transportas",
+          "description": "Organizuojame transportą jūsų kelionės vietoje, įskaitant automobilių nuomą ar transporto paslaugas."
+        }
+      },
+      "cta": "Pradėti"
+    },
+    "clientCommunication": {
+      "title": "Klientų Komunikacija",
+      "description": "Mūsų klientų komunikacijos paslauga užtikrina, kad jūsų klientai gautų savalaikius ir profesionalius atsakymus, išlaikant tvirtus verslo santykius.",
+      "features": {
+        "correspondence": {
+          "title": "Klientų Korespondencija",
+          "description": "Tvarkome el. pašto ir rašytinę komunikaciją su klientais jūsų vardu."
+        },
+        "followUp": {
+          "title": "Tolesnių Veiksmų Valdymas",
+          "description": "Užtikriname savalaikius tolesnius veiksmus su klientais, kad išlaikytume įsitraukimą ir patenkintume jų poreikius."
+        },
+        "relationship": {
+          "title": "Klientų Santykių Kūrimas",
+          "description": "Padedame palaikyti ir stiprinti klientų santykius per nuoseklią ir profesionalią komunikaciją."
+        }
+      },
+      "cta": "Pradėti"
+    },
+    "processTitle": "Mūsų Paslaugų Procesas",
+    "readyToStreamline": "Pasiruošę optimizuoti savo verslo operacijas?",
+    "getInTouch": "Susisiekite su mumis šiandien, kad aptartumėte, kaip mūsų paslaugos gali padėti jums susitelkti į tai, kas svarbiausia."
+  },
+  "team": {
+    "values": {
+      "title": "Mūsų Vertybės",
+      "reliability": {
+        "title": "Patikimumas",
+        "description": "Didžiuojamės būdami patikimi ir nuoseklūs. Kai prisiimame įsipareigojimą, mes jį įvykdome."
+      },
+      "confidentiality": {
+        "title": "Konfidencialumas",
+        "description": "Suprantame jūsų verslo informacijos jautrų pobūdį ir griežtai laikomės konfidencialumo."
+      },
+      "adaptability": {
+        "title": "Prisitaikomumas",
+        "description": "Greitai prisitaikome prie jūsų specifinių poreikių ir besikeičiančių reikalavimų, kad užtikrintume sklandžią pagalbą."
+      }
+    },
+    "visitOffice": "Apsilankykite Mūsų Biure",
+    "officeLocation": "Esame miesto centre, lengvai pasiekiami viešuoju transportu.",
+    "officeHours": "Darbo Valandos",
+    "weekdays": "Pirmadienis - Penktadienis",
+    "saturday": "Šeštadienis",
+    "sunday": "Sekmadienis",
+    "closed": "Uždaryta"
+  },
+  "pricing": {
+    "faq": {
+      "title": "Dažnai Užduodami Klausimai",
+      "rightPackage": {
+        "question": "Kaip žinoti, kuris paketas man tinka?",
+        "answer": "Rekomenduojame pradėti nuo mūsų paslaugų skaičiuoklės, kad gautumėte įvertinimą pagal savo konkrečius poreikius. Jei vis dar nesate tikri, mūsų komanda gali pateikti asmeninę rekomendaciją konsultacijos metu."
+      },
+      "customize": {
+        "question": "Ar galiu pritaikyti savo paketą?",
+        "answer": "Taip, mes siūlome visiškai pritaikomus paketus, atitinkančius jūsų konkrečius verslo poreikius. Susisiekite su mumis, kad aptartumėte savo reikalavimus, ir mes sukursime jums pritaikytą sprendimą."
+      },
+      "contract": {
+        "question": "Ar yra sutartis ar minimalus įsipareigojimas?",
+        "answer": "Mūsų standartiniai paketai siūlomi mėnesiniu pagrindu be ilgalaikių įsipareigojimų. Tačiau mes siūlome nuolaidas klientams, kurie įsipareigoja ilgesniam laikotarpiui."
+      },
+      "startTime": {
+        "question": "Kaip greitai galite pradėti dirbti su manimi?",
+        "answer": "Paprastai galime pradėti dirbti su naujais klientais per 1-2 darbo dienas po paslaugų sutarties sudarymo. Sudėtingesniems reikalavimams gali prireikti papildomo laiko įdiegimui ir nustatymui."
+      }
+    },
+    "readyToStart": "Pasiruošę pradėti?",
+    "contactToday": "Susisiekite su mumis šiandien, kad aptartumėte savo poreikius ir rastumėte tobulą sprendimą savo verslui.",
+    "contactUsNow": "Susisiekite Su Mumis Dabar",
+    "getStarted": "Pradėti"
+  },
+  "contact": {
+    "getInTouch": "Susisiekite",
+    "visitOffice": "Apsilankykite Mūsų Biure",
+    "officeLocation": "Esame miesto centre, lengvai pasiekiami viešuoju transportu.",
+    "officeHours": "Darbo Valandos",
+    "weekdays": "Pirmadienis - Penktadienis",
+    "saturday": "Šeštadienis",
+    "sunday": "Sekmadienis",
+    "closed": "Uždaryta",
+    "askQuestion": "Užduokite klausimą, kad pradėtumėte"
   }
 }
