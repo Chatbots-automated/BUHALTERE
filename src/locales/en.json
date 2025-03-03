@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "team": "Our Team",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Tired of administrative chaos?",
+      "subtitle": "Let's bring order to your business.",
+      "cta": "Explore Our Services"
+    },
+    "services": {
+      "title": "How We Help",
+      "subtitle": "Professional secretary services tailored to your needs",
+      "cta": "View All Services"
+    },
+    "about": {
+      "title": "Why Choose Us",
+      "subtitle": "We bring organization and efficiency to your business",
+      "point1": "Experienced professionals",
+      "point2": "Tailored solutions",
+      "point3": "Time-saving services",
+      "cta": "Meet Our Team"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "testimonial1": {
+        "text": "SecretaryPro transformed our administrative processes. We're now more efficient than ever!",
+        "author": "Jane Smith, CEO"
+      },
+      "testimonial2": {
+        "text": "The team is responsive, professional, and incredibly detail-oriented. Highly recommended!",
+        "author": "Michael Johnson, Small Business Owner"
+      }
+    },
+    "cta": {
+      "title": "Ready to streamline your business?",
+      "subtitle": "Get started today and focus on what matters most.",
+      "button": "Contact Us"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "From start to finish, we handle your administrative needs",
+    "timeline": {
+      "step1": {
+        "title": "Initial Assessment",
+        "description": "We analyze your current administrative processes and identify areas for improvement."
+      },
+      "step2": {
+        "title": "Email Management",
+        "description": "We organize, filter, and respond to emails according to your preferences."
+      },
+      "step3": {
+        "title": "Calendar Management",
+        "description": "We schedule meetings, set reminders, and ensure you never miss an important appointment."
+      },
+      "step4": {
+        "title": "Document Handling",
+        "description": "We create, edit, and organize documents to keep your business running smoothly."
+      },
+      "step5": {
+        "title": "Travel Arrangements",
+        "description": "We book flights, hotels, and transportation for your business trips."
+      },
+      "step6": {
+        "title": "Client Communication",
+        "description": "We maintain professional communication with your clients on your behalf."
+      }
+    },
+    "cta": "Get a Custom Quote"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "Dedicated professionals ready to assist you",
+    "members": {
+      "member1": {
+        "name": "Emily Johnson",
+        "position": "Lead Secretary",
+        "bio": "With over 10 years of experience, Emily specializes in executive assistance and document management.",
+        "funFact": "Emily speaks four languages fluently!"
+      },
+      "member2": {
+        "name": "David Smith",
+        "position": "Calendar Specialist",
+        "bio": "David ensures your schedule is optimized and you never miss an important meeting.",
+        "funFact": "David once organized a conference for 500 people in just 3 days!"
+      },
+      "member3": {
+        "name": "Sarah Williams",
+        "position": "Email Management Expert",
+        "bio": "Sarah transforms chaotic inboxes into organized communication systems.",
+        "funFact": "Sarah can type 120 words per minute!"
+      },
+      "member4": {
+        "name": "Michael Brown",
+        "position": "Document Specialist",
+        "bio": "Michael creates and manages professional documents with meticulous attention to detail.",
+        "funFact": "Michael has a background in graphic design!"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Transparent pricing for quality services",
+    "calculator": {
+      "title": "Service Quote Calculator",
+      "subtitle": "Select the services you need to get an estimate",
+      "services": {
+        "emailManagement": {
+          "title": "Email Management",
+          "price": 300
+        },
+        "calendarManagement": {
+          "title": "Calendar Management",
+          "price": 250
+        },
+        "documentHandling": {
+          "title": "Document Handling",
+          "price": 350
+        },
+        "travelArrangements": {
+          "title": "Travel Arrangements",
+          "price": 200
+        },
+        "clientCommunication": {
+          "title": "Client Communication",
+          "price": 300
+        }
+      },
+      "total": "Estimated Monthly Cost:",
+      "currency": "$",
+      "disclaimer": "Final pricing may vary based on specific requirements and volume.",
+      "cta": "Get a Custom Quote"
+    },
+    "packages": {
+      "title": "Service Packages",
+      "basic": {
+        "title": "Basic",
+        "price": "$500/month",
+        "features": [
+          "Email Management",
+          "Basic Calendar Management",
+          "Limited Document Handling"
+        ]
+      },
+      "standard": {
+        "title": "Standard",
+        "price": "$800/month",
+        "features": [
+          "Full Email Management",
+          "Complete Calendar Management",
+          "Document Creation and Handling",
+          "Basic Client Communication"
+        ]
+      },
+      "premium": {
+        "title": "Premium",
+        "price": "$1200/month",
+        "features": [
+          "Priority Email Management",
+          "Advanced Calendar Optimization",
+          "Comprehensive Document Services",
+          "Full Client Communication",
+          "Travel Arrangements"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with your administrative needs",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "quickRequest": {
+      "title": "Quick Request",
+      "options": {
+        "emailHelp": "I need help with emails",
+        "calendarHelp": "I need calendar management",
+        "documentHelp": "I need document assistance",
+        "generalInfo": "I want general information"
+      }
+    },
+    "responseTime": {
+      "title": "Response Time",
+      "text": "We typically respond within 1 business hour during working hours."
+    },
+    "chatbot": {
+      "title": "Quick Answers",
+      "placeholder": "Ask a question...",
+      "send": "Send"
+    }
+  },
+  "footer": {
+    "company": "© 2025 SecretaryPro. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "faq": "FAQ"
+    }
+  },
+  "pathNav": {
+    "title": "What do you need help with?",
+    "options": {
+      "emailManagement": "Email Management",
+      "calendarManagement": "Calendar Management",
+      "documentHandling": "Document Handling",
+      "travelArrangements": "Travel Arrangements",
+      "clientCommunication": "Client Communication"
+    }
+  }
+}
