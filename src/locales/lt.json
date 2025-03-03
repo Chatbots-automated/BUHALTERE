@@ -58,6 +58,20 @@
         "title": "Klientų Komunikacija",
         "content": "Palaikykite nuoseklų, profesionalų bendravimą su savo klientais."
       }
+    },
+    "aboutPoints": {
+      "point1": {
+        "title": "Patyrę profesionalai",
+        "description": "Mūsų komanda turi daugiametę administracinės pagalbos patirtį įvairiose pramonės šakose."
+      },
+      "point2": {
+        "title": "Individualūs sprendimai",
+        "description": "Pritaikome savo paslaugas pagal jūsų specifinius verslo poreikius ir pageidavimus."
+      },
+      "point3": {
+        "title": "Laiko taupymo paslaugos",
+        "description": "Mūsų efektyvūs procesai atlaisvina jūsų laiką, kad galėtumėte susitelkti į verslo augimą."
+      }
     }
   },
   "services": {
@@ -382,7 +396,10 @@
       "address": "123 Verslo pr., 100 kab., Vilnius, LT-10001",
       "phone": "+370 5 123 4567",
       "email": "info@secretarypro.lt"
-    }
+    },
+    "quickLinks": "Greitos Nuorodos",
+    "contactUs": "Susisiekite Su Mumis",
+    "legal": "Teisinė Informacija"
   },
   "pathNav": {
     "title": "Kokios pagalbos jums reikia?",
