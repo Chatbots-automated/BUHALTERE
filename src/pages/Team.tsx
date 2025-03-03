@@ -110,7 +110,7 @@ const Team: React.FC = () => {
                     <p className="text-sm text-neutral-200 mb-4">{member.bio}</p>
                     <div className="flex justify-between items-center">
                       <div className="bg-primary-600 text-white text-xs py-1 px-2 rounded-full">
-                        Fun fact: {member.funFact}
+                        {member.funFact}
                       </div>
                       <button
                         onClick={() => openVideo(member.id)}
@@ -132,7 +132,7 @@ const Team: React.FC = () => {
       <section className="py-16 bg-neutral-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-display font-bold text-center mb-12">
-            Our Values
+            {t('team.values.title')}
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -149,9 +149,9 @@ const Team: React.FC = () => {
                   <path d="m9 12 2 2 4-4"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-center mb-4">Reliability</h3>
+              <h3 className="text-xl font-semibold text-center mb-4">{t('team.values.reliability.title')}</h3>
               <p className="text-neutral-600 text-center">
-                We pride ourselves on being dependable and consistent. When we make a commitment, we follow through.
+                {t('team.values.reliability.description')}
               </p>
             </motion.div>
             
@@ -167,9 +167,9 @@ const Team: React.FC = () => {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-center mb-4">Confidentiality</h3>
+              <h3 className="text-xl font-semibold text-center mb-4">{t('team.values.confidentiality.title')}</h3>
               <p className="text-neutral-600 text-center">
-                We understand the sensitive nature of your business information and maintain strict confidentiality.
+                {t('team.values.confidentiality.description')}
               </p>
             </motion.div>
             
@@ -188,9 +188,9 @@ const Team: React.FC = () => {
                   <circle cx="7" cy="7" r="3"></circle>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-center mb-4">Adaptability</h3>
+              <h3 className="text-xl font-semibold text-center mb-4">{t('team.values.adaptability.title')}</h3>
               <p className="text-neutral-600 text-center">
-                We quickly adapt to your specific needs and changing requirements to provide seamless support.
+                {t('team.values.adaptability.description')}
               </p>
             </motion.div>
           </div>

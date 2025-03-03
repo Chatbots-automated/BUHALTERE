@@ -99,7 +99,7 @@ const Services: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-display font-bold text-center mb-12">
-            Our Service Process
+            {t('services.processTitle')}
           </h2>
           
           <div className="timeline-container">
@@ -132,38 +132,38 @@ const Services: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-display font-bold mb-6">
-                Email Management
+                {t('services.emailManagement.title')}
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Our email management service helps you regain control of your inbox and ensures that important messages are handled promptly and professionally.
+                {t('services.emailManagement.description')}
               </p>
               
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <Mail size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Inbox Organization</h3>
-                    <p className="text-neutral-600">We create a logical folder structure and filtering system to keep your inbox organized.</p>
+                    <h3 className="font-semibold">{t('services.emailManagement.features.organization.title')}</h3>
+                    <p className="text-neutral-600">{t('services.emailManagement.features.organization.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Email Filtering</h3>
-                    <p className="text-neutral-600">We prioritize important messages and filter out spam to ensure you see what matters most.</p>
+                    <h3 className="font-semibold">{t('services.emailManagement.features.filtering.title')}</h3>
+                    <p className="text-neutral-600">{t('services.emailManagement.features.filtering.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Response Management</h3>
-                    <p className="text-neutral-600">We draft and send responses on your behalf, following your guidelines and communication style.</p>
+                    <h3 className="font-semibold">{t('services.emailManagement.features.response.title')}</h3>
+                    <p className="text-neutral-600">{t('services.emailManagement.features.response.description')}</p>
                   </div>
                 </li>
               </ul>
               
               <Link to="/contact" className="btn btn-primary inline-flex items-center gap-2">
-                Get Started <ArrowRight size={18} />
+                {t('services.emailManagement.cta')} <ArrowRight size={18} />
               </Link>
             </div>
             
@@ -184,38 +184,38 @@ const Services: React.FC = () => {
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-display font-bold mb-6">
-                Calendar Management
+                {t('services.calendarManagement.title')}
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Our calendar management service ensures that your schedule is optimized and you never miss an important appointment or meeting.
+                {t('services.calendarManagement.description')}
               </p>
               
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <Calendar size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Appointment Scheduling</h3>
-                    <p className="text-neutral-600">We coordinate with clients and partners to schedule meetings at times that work for everyone.</p>
+                    <h3 className="font-semibold">{t('services.calendarManagement.features.scheduling.title')}</h3>
+                    <p className="text-neutral-600">{t('services.calendarManagement.features.scheduling.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Calendar size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Reminder Setup</h3>
-                    <p className="text-neutral-600">We set up reminders for important events, deadlines, and follow-ups.</p>
+                    <h3 className="font-semibold">{t('services.calendarManagement.features.reminders.title')}</h3>
+                    <p className="text-neutral-600">{t('services.calendarManagement.features.reminders.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Calendar size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Schedule Optimization</h3>
-                    <p className="text-neutral-600">We organize your calendar to maximize productivity and minimize travel time between meetings.</p>
+                    <h3 className="font-semibold">{t('services.calendarManagement.features.optimization.title')}</h3>
+                    <p className="text-neutral-600">{t('services.calendarManagement.features.optimization.description')}</p>
                   </div>
                 </li>
               </ul>
               
               <Link to="/contact" className="btn btn-primary inline-flex items-center gap-2">
-                Get Started <ArrowRight size={18} />
+                {t('services.calendarManagement.cta')} <ArrowRight size={18} />
               </Link>
             </div>
             
@@ -236,38 +236,38 @@ const Services: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-display font-bold mb-6">
-                Document Handling
+                {t('services.documentHandling.title')}
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Our document handling service ensures that all your business documents are created, edited, and organized professionally.
+                {t('services.documentHandling.description')}
               </p>
               
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <FileText size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Document Creation</h3>
-                    <p className="text-neutral-600">We create professional documents, including letters, reports, presentations, and more.</p>
+                    <h3 className="font-semibold">{t('services.documentHandling.features.creation.title')}</h3>
+                    <p className="text-neutral-600">{t('services.documentHandling.features.creation.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <FileText size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Document Editing</h3>
-                    <p className="text-neutral-600">We review and edit documents for grammar, spelling, formatting, and clarity.</p>
+                    <h3 className="font-semibold">{t('services.documentHandling.features.editing.title')}</h3>
+                    <p className="text-neutral-600">{t('services.documentHandling.features.editing.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <FileText size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Document Organization</h3>
-                    <p className="text-neutral-600">We implement a logical filing system to ensure documents are easy to find and access.</p>
+                    <h3 className="font-semibold">{t('services.documentHandling.features.organization.title')}</h3>
+                    <p className="text-neutral-600">{t('services.documentHandling.features.organization.description')}</p>
                   </div>
                 </li>
               </ul>
               
               <Link to="/contact" className="btn btn-primary inline-flex items-center gap-2">
-                Get Started <ArrowRight size={18} />
+                {t('services.documentHandling.cta')} <ArrowRight size={18} />
               </Link>
             </div>
             
@@ -288,38 +288,38 @@ const Services: React.FC = () => {
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-display font-bold mb-6">
-                Travel Arrangements
+                {t('services.travelArrangements.title')}
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Our travel arrangement service takes care of all the details for your business trips, ensuring a smooth and stress-free experience.
+                {t('services.travelArrangements.description')}
               </p>
               
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <Plane size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Flight Booking</h3>
-                    <p className="text-neutral-600">We research and book flights that fit your schedule and preferences.</p>
+                    <h3 className="font-semibold">{t('services.travelArrangements.features.flights.title')}</h3>
+                    <p className="text-neutral-600">{t('services.travelArrangements.features.flights.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Plane size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Accommodation</h3>
-                    <p className="text-neutral-600">We find and reserve hotels or other accommodations that meet your requirements.</p>
+                    <h3 className="font-semibold">{t('services.travelArrangements.features.accommodation.title')}</h3>
+                    <p className="text-neutral-600">{t('services.travelArrangements.features.accommodation.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Plane size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Transportation</h3>
-                    <p className="text-neutral-600">We arrange for transportation at your destination, including car rentals or car services.</p>
+                    <h3 className="font-semibold">{t('services.travelArrangements.features.transportation.title')}</h3>
+                    <p className="text-neutral-600">{t('services.travelArrangements.features.transportation.description')}</p>
                   </div>
                 </li>
               </ul>
               
               <Link to="/contact" className="btn btn-primary inline-flex items-center gap-2">
-                Get Started <ArrowRight size={18} />
+                {t('services.travelArrangements.cta')} <ArrowRight size={18} />
               </Link>
             </div>
             
@@ -340,38 +340,38 @@ const Services: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-display font-bold mb-6">
-                Client Communication
+                {t('services.clientCommunication.title')}
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Our client communication service ensures that your clients receive timely and professional responses, maintaining strong business relationships.
+                {t('services.clientCommunication.description')}
               </p>
               
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <Users size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Client Correspondence</h3>
-                    <p className="text-neutral-600">We handle email and written communication with clients on your behalf.</p>
+                    <h3 className="font-semibold">{t('services.clientCommunication.features.correspondence.title')}</h3>
+                    <p className="text-neutral-600">{t('services.clientCommunication.features.correspondence.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Users size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Follow-up Management</h3>
-                    <p className="text-neutral-600">We ensure timely follow-ups with clients to maintain engagement and address their needs.</p>
+                    <h3 className="font-semibold">{t('services.clientCommunication.features.followUp.title')}</h3>
+                    <p className="text-neutral-600">{t('services.clientCommunication.features.followUp.description')}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <Users size={24} className="text-primary-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Client Relationship Building</h3>
-                    <p className="text-neutral-600">We help maintain and strengthen client relationships through consistent and professional communication.</p>
+                    <h3 className="font-semibold">{t('services.clientCommunication.features.relationship.title')}</h3>
+                    <p className="text-neutral-600">{t('services.clientCommunication.features.relationship.description')}</p>
                   </div>
                 </li>
               </ul>
               
               <Link to="/contact" className="btn btn-primary inline-flex items-center gap-2">
-                Get Started <ArrowRight size={18} />
+                {t('services.clientCommunication.cta')} <ArrowRight size={18} />
               </Link>
             </div>
             
@@ -390,10 +390,10 @@ const Services: React.FC = () => {
       <section className="py-16 bg-primary-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            Ready to streamline your business operations?
+            {t('services.readyToStreamline')}
           </h2>
           <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
-            Get in touch with us today to discuss how our services can help you focus on what matters most.
+            {t('services.getInTouch')}
           </p>
           <Link to="/contact" className="btn bg-white text-primary-600 hover:bg-primary-50">
             {t('services.cta')}
