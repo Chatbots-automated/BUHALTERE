@@ -141,12 +141,12 @@ const Home: React.FC = () => {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Email Management</h3>
+              <h3 className="text-xl font-bold mb-3">{t('services.emailManagement.title')}</h3>
               <p className="text-neutral-600 mb-4">
-                We organize, filter, and respond to emails according to your preferences, ensuring your inbox stays manageable.
+                {t('services.emailManagement.features.organization.description')}
               </p>
               <Link to="/services#email-management" className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-1">
-                Learn more <ArrowRight size={16} />
+                {t('home.services.cta')} <ArrowRight size={16} />
               </Link>
             </motion.div>
             
@@ -172,12 +172,12 @@ const Home: React.FC = () => {
                   <path d="M16 18h.01"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Calendar Management</h3>
+              <h3 className="text-xl font-bold mb-3">{t('services.calendarManagement.title')}</h3>
               <p className="text-neutral-600 mb-4">
-                We schedule meetings, set reminders, and ensure you never miss an important appointment.
+                {t('services.calendarManagement.features.scheduling.description')}
               </p>
               <Link to="/services#calendar-management" className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-1">
-                Learn more <ArrowRight size={16} />
+                {t('home.services.cta')} <ArrowRight size={16} />
               </Link>
             </motion.div>
             
@@ -198,12 +198,12 @@ const Home: React.FC = () => {
                   <line x1="10" x2="8" y1="9" y2="9"></line>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Document Handling</h3>
+              <h3 className="text-xl font-bold mb-3">{t('services.documentHandling.title')}</h3>
               <p className="text-neutral-600 mb-4">
-                We create, edit, and organize documents to keep your business running smoothly.
+                {t('services.documentHandling.features.creation.description')}
               </p>
               <Link to="/services#document-handling" className="text-primary-600 font-medium hover:text-primary-700 inline-flex items-center gap-1">
-                Learn more <ArrowRight size={16} />
+                {t('home.services.cta')} <ArrowRight size={16} />
               </Link>
             </motion.div>
           </div>

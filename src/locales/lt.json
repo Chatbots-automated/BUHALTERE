@@ -110,7 +110,7 @@
       "features": {
         "organization": {
           "title": "Pašto Dėžutės Organizavimas",
-          "description": "Sukuriame logišką aplankų struktūrą ir filtravimo sistemą, kad jūsų pašto dėžutė būtų tvarkinga."
+          "description": "Organizuojame, filtruojame ir atsakome į el. laiškus pagal jūsų pageidavimus, užtikrindami, kad jūsų pašto dėžutė išliktų tvarkinga."
         },
         "filtering": {
           "title": "El. Laiškų Filtravimas",
@@ -129,7 +129,7 @@
       "features": {
         "scheduling": {
           "title": "Susitikimų Planavimas",
-          "description": "Koordinuojame su klientais ir partneriais, kad suplanuotume susitikimus laiku, kuris tinka visiems."
+          "description": "Planuojame susitikimus, nustatome priminimus ir užtikriname, kad niekada nepraleistumėte svarbaus susitikimo."
         },
         "reminders": {
           "title": "Priminimų Nustatymas",
@@ -148,7 +148,7 @@
       "features": {
         "creation": {
           "title": "Dokumentų Kūrimas",
-          "description": "Kuriame profesinius dokumentus, įskaitant laiškus, ataskaitas, prezentacijas ir kt."
+          "description": "Kuriame, redaguojame ir organizuojame dokumentus, kad jūsų verslas veiktų sklandžiai."
         },
         "editing": {
           "title": "Dokumentų Redagavimas",
