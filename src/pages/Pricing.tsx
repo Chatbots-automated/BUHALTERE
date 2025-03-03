@@ -5,7 +5,7 @@ import { Check, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Pricing: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
   const [totalCost, setTotalCost] = useState(0);
   
@@ -115,7 +115,7 @@ const Pricing: React.FC = () => {
                   />
                   <label htmlFor={service.id} className="flex justify-between w-full cursor-pointer">
                     <span>{service.title}</span>
-                    <span className="font-semibold">{t('pricing.calculator.currency')}{service.price}/month</span>
+                    <span className="font-semibold">{t('pricing.calculator.currency')}{service.price}/{i18n.language === 'lt' ? 'mėn' : 'month'}</span>
                   </label>
                 </div>
               ))}
@@ -125,7 +125,7 @@ const Pricing: React.FC = () => {
               <div className="flex justify-between items-center">
                 <span className="text-lg font-semibold">{t('pricing.calculator.total')}</span>
                 <span className="text-2xl font-bold text-primary-600">
-                  {t('pricing.calculator.currency')}{totalCost}/month
+                  {t('pricing.calculator.currency')}{totalCost}/{i18n.language === 'lt' ? 'mėn' : 'month'}
                 </span>
               </div>
               <p className="text-sm text-neutral-500 mt-2">
@@ -172,7 +172,7 @@ const Pricing: React.FC = () => {
                   ))}
                 </ul>
                 <Link to="/contact" className="btn btn-outline w-full text-center">
-                  Get Started
+                  {t('pricing.getStarted')}
                 </Link>
               </div>
             </motion.div>
@@ -203,7 +203,7 @@ const Pricing: React.FC = () => {
                   ))}
                 </ul>
                 <Link to="/contact" className="btn btn-primary w-full text-center">
-                  Get Started
+                  {t('pricing.getStarted')}
                 </Link>
               </div>
             </motion.div>
@@ -231,7 +231,7 @@ const Pricing: React.FC = () => {
                   ))}
                 </ul>
                 <Link to="/contact" className="btn btn-outline w-full text-center">
-                  Get Started
+                  {t('pricing.getStarted')}
                 </Link>
               </div>
             </motion.div>
@@ -243,7 +243,7 @@ const Pricing: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-display font-bold text-center mb-12">
-            Frequently Asked Questions
+            {t('pricing.faq.title')}
           </h2>
           
           <div className="max-w-3xl mx-auto space-y-6">
@@ -254,9 +254,9 @@ const Pricing: React.FC = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-semibold mb-2">How do I know which package is right for me?</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pricing.faq.rightPackage.question')}</h3>
               <p className="text-neutral-600">
-                We recommend starting with our service calculator to get an estimate based on your specific needs. If you're still unsure, our team can provide a personalized recommendation during a consultation.
+                {t('pricing.faq.rightPackage.answer')}
               </p>
             </motion.div>
             
@@ -267,9 +267,9 @@ const Pricing: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-semibold mb-2">Can I customize my package?</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pricing.faq.customize.question')}</h3>
               <p className="text-neutral-600">
-                Yes, we offer fully customizable packages to meet your specific business needs. Contact us to discuss your requirements and we'll create a tailored solution.
+                {t('pricing.faq.customize.answer')}
               </p>
             </motion.div>
             
@@ -280,9 +280,9 @@ const Pricing: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-semibold mb-2">Is there a contract or minimum commitment?</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pricing.faq.contract.question')}</h3>
               <p className="text-neutral-600">
-                Our standard packages are offered on a month-to-month basis with no long-term commitment required. However, we do offer discounts for clients who commit to longer terms.
+                {t('pricing.faq.contract.answer')}
               </p>
             </motion.div>
             
@@ -293,9 +293,9 @@ const Pricing: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-semibold mb-2">How quickly can you start working with me?</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pricing.faq.startTime.question')}</h3>
               <p className="text-neutral-600">
-                We can typically begin working with new clients within 1-2 business days after finalizing the service agreement. For more complex requirements, we may need additional time for onboarding and setup.
+                {t('pricing.faq.startTime.answer')}
               </p>
             </motion.div>
           </div>
@@ -306,13 +306,13 @@ const Pricing: React.FC = () => {
       <section className="py-16 bg-primary-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            Ready to get started?
+            {t('pricing.readyToStart')}
           </h2>
           <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your needs and find the perfect solution for your business.
+            {t('pricing.contactToday')}
           </p>
           <Link to="/contact" className="btn bg-white text-primary-600 hover:bg-primary-50">
-            Contact Us Now
+            {t('pricing.contactUsNow')}
           </Link>
         </div>
       </section>

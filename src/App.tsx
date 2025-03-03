@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { ArrowUp, Paperclip } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 // Components
 import Header from './components/Header';
@@ -18,6 +19,7 @@ import Contact from './pages/Contact';
 function App() {
   const location = useLocation();
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const { i18n } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,7 +38,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col" key={i18n.language}>
       <CursorEffect />
       <Header />
       

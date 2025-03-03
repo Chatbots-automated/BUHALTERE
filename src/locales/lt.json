@@ -40,6 +40,24 @@
       "title": "Pasiruošę optimizuoti savo verslą?",
       "subtitle": "Pradėkite šiandien ir susitelkite į tai, kas svarbiausia.",
       "button": "Susisiekite"
+    },
+    "stickyNotes": {
+      "emailManagement": {
+        "title": "El. Pašto Valdymas",
+        "content": "Sumažinkite pašto dėžutės perkrovą ir užtikrinkite savalaikius atsakymus į svarbius pranešimus."
+      },
+      "calendarOrganization": {
+        "title": "Kalendoriaus Organizavimas",
+        "content": "Niekada daugiau neužsirezervuokite dvigubai ar nepraleiskite svarbaus susitikimo."
+      },
+      "documentHandling": {
+        "title": "Dokumentų Tvarkymas",
+        "content": "Profesionalus dokumentų kūrimas, redagavimas ir organizavimas."
+      },
+      "clientCommunication": {
+        "title": "Klientų Komunikacija",
+        "content": "Palaikykite nuoseklų, profesionalų bendravimą su savo klientais."
+      }
     }
   },
   "services": {
@@ -358,6 +376,12 @@
       "privacy": "Privatumo Politika",
       "terms": "Paslaugų Teikimo Sąlygos",
       "faq": "DUK"
+    },
+    "companyInfo": "Profesionalios sekretorių paslaugos jūsų verslo operacijų optimizavimui.",
+    "contactInfo": {
+      "address": "123 Verslo pr., 100 kab., Vilnius, LT-10001",
+      "phone": "+370 5 123 4567",
+      "email": "info@secretarypro.lt"
     }
   },
   "pathNav": {

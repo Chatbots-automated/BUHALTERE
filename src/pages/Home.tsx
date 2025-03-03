@@ -136,12 +136,12 @@ const Home: React.FC = () => {
                   <line x1="12" x2="12" y1="10" y2="10" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Email Management</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pathNav.options.emailManagement')}</h3>
               <p className="text-neutral-600 mb-4">
-                We organize, filter, and respond to emails according to your preferences, ensuring your inbox stays manageable.
+                {t('services.emailManagement.description')}
               </p>
               <Link to="/services#email-management" className="text-primary-600 font-medium inline-flex items-center gap-1 hover:gap-2 transition-all">
-                Learn more <ArrowRight size={16} />
+                {t('services.emailManagement.cta')} <ArrowRight size={16} />
               </Link>
             </motion.div>
             
@@ -162,12 +162,12 @@ const Home: React.FC = () => {
                   <line x1="3" y1="10" x2="21" y2="10" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Calendar Management</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pathNav.options.calendarManagement')}</h3>
               <p className="text-neutral-600 mb-4">
-                We schedule meetings, set reminders, and ensure you never miss an important appointment.
+                {t('services.calendarManagement.description')}
               </p>
               <Link to="/services#calendar-management" className="text-primary-600 font-medium inline-flex items-center gap-1 hover:gap-2 transition-all">
-                Learn more <ArrowRight size={16} />
+                {t('services.calendarManagement.cta')} <ArrowRight size={16} />
               </Link>
             </motion.div>
             
@@ -189,12 +189,12 @@ const Home: React.FC = () => {
                   <line x1="10" y1="9" x2="8" y2="9" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Document Handling</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('pathNav.options.documentHandling')}</h3>
               <p className="text-neutral-600 mb-4">
-                We create, edit, and organize documents to keep your business running smoothly and professionally.
+                {t('services.documentHandling.description')}
               </p>
               <Link to="/services#document-handling" className="text-primary-600 font-medium inline-flex items-center gap-1 hover:gap-2 transition-all">
-                Learn more <ArrowRight size={16} />
+                {t('services.documentHandling.cta')} <ArrowRight size={16} />
               </Link>
             </motion.div>
           </div>
@@ -250,23 +250,39 @@ const Home: React.FC = () => {
             
             <div className="lg:w-1/2 grid grid-cols-2 gap-6">
               <StickyNote 
+                translationKey={{
+                  title: 'home.stickyNotes.emailManagement.title',
+                  content: 'home.stickyNotes.emailManagement.content'
+                }}
                 title="Email Management" 
                 content="Reduce inbox overwhelm and ensure timely responses to important messages."
                 rotation={2}
               />
               <StickyNote 
+                translationKey={{
+                  title: 'home.stickyNotes.calendarOrganization.title',
+                  content: 'home.stickyNotes.calendarOrganization.content'
+                }}
                 title="Calendar Organization" 
                 content="Never double-book or miss an important meeting again."
                 rotation={-1}
                 color="bg-primary-100"
               />
               <StickyNote 
+                translationKey={{
+                  title: 'home.stickyNotes.documentHandling.title',
+                  content: 'home.stickyNotes.documentHandling.content'
+                }}
                 title="Document Handling" 
                 content="Professional document creation, editing, and organization."
                 rotation={-2}
                 color="bg-primary-100"
               />
               <StickyNote 
+                translationKey={{
+                  title: 'home.stickyNotes.clientCommunication.title',
+                  content: 'home.stickyNotes.clientCommunication.content'
+                }}
                 title="Client Communication" 
                 content="Maintain consistent, professional communication with your clients."
                 rotation={1}
